@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "queue.h": "c",
+        "stdio_usb.h": "c",
+        "semphr.h": "c",
+        "cctype": "c"
+    }
+}

@@ -3,6 +3,24 @@
         "queue.h": "c",
         "stdio_usb.h": "c",
         "semphr.h": "c",
-        "cctype": "c"
+        "cctype": "c",
+        "ultrsonic.h": "c",
+        "freertos.h": "c",
+        "stdio.h": "c",
+        "uwbsensormissiledata.h": "c",
+        "notifyoperatorwlcmd_utils.h": "c",
+        "notifyoperatorwlcmd.h": "c",
+        "notifyoperatortempcmd.h": "c",
+        "checkiflaunchingmissiledata.h": "c",
+        "etactor.h": "c",
+        "lcd.h": "c",
+        "etplatformlifecycle.h": "c",
+        "task.h": "c",
+        "fllvlinfo.h": "c",
+        "etplatform.h": "c",
+        "tempactor.h": "c",
+        "adc.h": "c",
+        "semaphore.h": "c",
+        "etlogger.h": "c"
     }
 }

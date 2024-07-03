@@ -11,18 +11,10 @@ target_link_libraries(
     pico_stdlib
     pico_stdlib_headers
     hardware_adc
-    FreeRTOS-Kernel-Heap4 
+    FreeRTOS-Kernel-Heap4  
+    hardware_i2c
     )
 pico_enable_stdio_usb(${ProjectName} 1)
 pico_enable_stdio_uart(${ProjectName} 0)
-
-target_compile_definitions(${PROJECT_NAME} PRIVATE
-    LCD_RS=8
-    LCD_EN=9
-    LCD_D4=10
-    LCD_D5=11
-    LCD_D6=12
-    LCD_D7=13
-)
 
 pico_add_extra_outputs(${ProjectName})
